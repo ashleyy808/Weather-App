@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script defer src="./js/config.js"></script>
+    <script defer src="./js/script.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="app-wrap">
+    <header>
+        <h1>Weather App</h1>
+    </header>
+    <main>
+        <section class="location">
+            <div class="city">City, Country</div>
+            <div class="date">Date</div>
+        </section>
+        <div class="current"> 
+            <div class="title">Today's Weather</div>
+            <div class="temp">Temperature: °F</div>
+            <div class="index">Feels Like</div>
+            <div class="desc">Current Weather</div>
+        </div>
+    </main>
+    </div>
+    <form>
+        <input type="text" autocomplete="off" class="weatherData"
+        placeholder="Search By City"/>
+        <input type="submit" value="Search">
+    </form>
+    <footer>
+        <p>Copyright &copy; 2020 All Rights Reserved</p>
+    </footer>
+</body>
+</html>
